@@ -42,7 +42,7 @@ while True:
     elif op == 4 and v2 == 0:
         print("Impossível dividir por zero")
     if op == 5:
-        print(eric.soma(v1,v2))
+        print(fork.pitagoras(v1,v2)
 
     parar = input('\nDigite 0 se deseja parar, ou qualquer outro valor para continuar:\n')
     if parar =='0':
