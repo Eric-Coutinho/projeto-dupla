@@ -1,11 +1,12 @@
 
 import mateus
 import eric
+import raiz
 
 while True:
     while True:
         try:
-            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão\n'))
+            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão / 5 - Raíz quadrada\n'))
 
             break
         except ValueError:
@@ -40,6 +41,9 @@ while True:
         print(mateus.divisao(v1,v2))
     elif op == 4 and v2 == 0:
         print("Impossível dividir por zero")
+    
+    if op == 5:
+        print(raiz.raiz(x))
 
     parar = input('\nDigite 0 se deseja parar, ou qualquer outro valor para continuar:\n')
     if parar =='0':
