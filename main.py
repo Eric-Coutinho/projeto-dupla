@@ -5,7 +5,7 @@ import eric
 while True:
     while True:
         try:
-            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão\n'))
+            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão / 5. Pitágoras\n'))
 
             break
         except ValueError:
