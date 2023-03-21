@@ -1,4 +1,4 @@
-
+import eliana 
 import mateus
 import eric
 import raiz
@@ -7,21 +7,21 @@ import fork
 while True:
     while True:
         try:
-            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão / 5 - Raíz quadrada / 6. Pitágoras\n'))
+            op = int(input('Digite a operação que deseja:\n1 - Soma / 2 - Subtração / 3 - Multiplicação / 4 - Divisão / 5 - Raíz quadrada / 6 - Pitágoras / 7 - Resto da Divisão\n>>'))
             break
         except ValueError:
             print("Digite um número válido!\n")
 
     while True:
         try:
-            v1 = int(input('Digite o valor 1:\n'))
+            v1 = int(input('Digite o valor 1:\n>>'))
             break
         except ValueError:
             print("Digite um número válido!\n")
 
     while True:
         try:
-            v2 = int(input('Digite o valor 2:\n'))
+            v2 = int(input('Digite o valor 2:\n>>'))
             break
         except ValueError:
             print("Digite um número válido!\n")
@@ -48,6 +48,8 @@ while True:
     if op == 6:
         print('Resultado:', fork.pitagoras(v1,v2))
 
+    if (op == 7) and (v2!=0):
+        print(eliana.resto(v1,v2))
 
     parar = input('\nDigite 0 se deseja parar, ou qualquer outro valor para continuar:\n')
     if parar =='0':
