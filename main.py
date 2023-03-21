@@ -29,20 +29,20 @@ while True:
     print('')
 
     if op == 1:
-        print(eric.soma(v1,v2))
+        print('Resultado:',eric.soma(v1,v2))
 
     if op == 2:
-        print(mateus.menos(v1,v2))
+        print('Resultado:',mateus.menos(v1,v2))
 
     if op == 3:
-        print(eric.vezes(v1,v2))
+        print('Resultado:',eric.vezes(v1,v2))
 
     if (op == 4) and (v2!=0):
-        print(mateus.divisao(v1,v2))
+        print('Resultado:',mateus.divisao(v1,v2))
     elif op == 4 and v2 == 0:
         print("Impossível dividir por zero")
     if op == 5:
-        print(fork.pitagoras(v1,v2))
+        print('Resultado:',fork.pitagoras(v1,v2))
 
     parar = input('\nDigite 0 se deseja parar, ou qualquer outro valor para continuar:\n')
     if parar =='0':
