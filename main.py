@@ -43,7 +43,8 @@ while True:
         print("Impossível dividir por zero")
     
     if op == 5:
-        print(raiz.raiz(v1,v2))
+        print(raiz.raiz(v1))
+        print(raiz.raiz(v2))
 
     if op == 6:
         print('Resultado:', fork.pitagoras(v1,v2))

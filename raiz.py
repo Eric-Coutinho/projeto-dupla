@@ -1,2 +1,2 @@
 def raiz(x):
-    print(x**0.5)
+    return (x**0.5)
